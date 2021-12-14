@@ -8,14 +8,12 @@ def subproblem(int, lis, max):
     elif (int != max):
         lis[int] = lis[int - 1] + lis[int - 2]
         subproblem(int + 1, lis, max)
-    print(int, max)
-    print(lis)
     return lis[max-1]
 
 
 def fib(x):
     lis = [0] * x
     output = subproblem(0, lis, x)
-    return output
+    return output, lis
 
 print(fib(8))
