@@ -2,6 +2,8 @@ import random
 #Used for graphing
 import matplotlib.pyplot as plt
 
+#Program to approximate pi using nothing but two different uniform distributions.
+
 N = 10000
 I = 0
 
