@@ -19,4 +19,4 @@ def sumswap(A, B):
             return(i, diff-i)
 
 
-print(sumswap([4, 1, 2, 1, 1, 2],[3, 6, 3, 3]))
+assert sumswap([4, 1, 2, 1, 1, 2],[3, 6, 3, 3]) == (1,3), print("Incorrect Sums")
